@@ -1,6 +1,12 @@
-Options -MultiViews
+Options -MultiViews +Includes
+AddOutputFilter INCLUDES .html
 
 RewriteEngine On
+
+# Block direct access to SSI include folders, but allow SSI subrequests.
+RewriteCond %{IS_SUBREQ} false
+RewriteRule ^includes(\.example)?/ - [F,L]
+
 DirectoryIndex index.html
 
 # Redirect only the domain root to the default Romanian version.

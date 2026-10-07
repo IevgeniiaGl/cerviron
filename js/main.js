@@ -1,19 +1,4 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
-  const isRomanianPage = document.documentElement.lang === 'ro';
-  const organizationSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'CERVIRON',
-    description: isRomanianPage
-      ? 'Informații despre dispozitivul medical CERVIRON.'
-      : 'Информация о медицинском изделии CERVIRON.',
-    inLanguage: isRomanianPage ? 'ro' : 'ru'
-  };
-  const schemaNode = document.createElement('script');
-  schemaNode.type = 'application/ld+json';
-  schemaNode.textContent = JSON.stringify(organizationSchema);
-  document.head.appendChild(schemaNode);
-
   document.querySelectorAll('.accordion__trigger').forEach((trigger) => {
     if (trigger.querySelector(':scope > h2')) return;
     const heading = document.createElement('h2');
