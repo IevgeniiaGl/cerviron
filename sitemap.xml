@@ -1,15 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cerviron.punct.one/ro/</loc></url>
-  <url><loc>https://cerviron.punct.one/ro/despre-produs</loc></url>
-  <url><loc>https://cerviron.punct.one/ro/indicatii</loc></url>
-  <url><loc>https://cerviron.punct.one/ro/prospect</loc></url>
-  <url><loc>https://cerviron.punct.one/ro/intrebari</loc></url>
-  <url><loc>https://cerviron.punct.one/ro/unde-cumpar</loc></url>
-  <url><loc>https://cerviron.punct.one/ru/</loc></url>
-  <url><loc>https://cerviron.punct.one/ru/o-producte</loc></url>
-  <url><loc>https://cerviron.punct.one/ru/pocazaniya</loc></url>
-  <url><loc>https://cerviron.punct.one/ru/instrukciya</loc></url>
-  <url><loc>https://cerviron.punct.one/ru/voprosy</loc></url>
-  <url><loc>https://cerviron.punct.one/ru/gde-kupit</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cerviron.punct.one/ro/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ru/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ro/despre-produs</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/despre-produs" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/o-producte" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/despre-produs" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ru/o-producte</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/despre-produs" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/o-producte" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/despre-produs" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ro/indicatii</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/indicatii" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/pocazaniya" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/indicatii" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ru/pocazaniya</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/indicatii" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/pocazaniya" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/indicatii" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ro/prospect</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/prospect" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/instrukciya" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/prospect" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ru/instrukciya</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/prospect" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/instrukciya" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/prospect" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ro/intrebari</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/intrebari" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/voprosy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/intrebari" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ru/voprosy</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/intrebari" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/voprosy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/intrebari" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ro/unde-cumpar</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/unde-cumpar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/gde-kupit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/unde-cumpar" />
+  </url>
+  <url>
+    <loc>https://cerviron.punct.one/ru/gde-kupit</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://cerviron.punct.one/ro/unde-cumpar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cerviron.punct.one/ru/gde-kupit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cerviron.punct.one/ro/unde-cumpar" />
+  </url>
 </urlset>
