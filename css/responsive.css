@@ -88,8 +88,10 @@
   }
 
   .footer__inner {
-    grid-template-columns: 1fr auto;
-    gap: 12px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 16px;
+    text-align: center;
   }
 
   .footer .brand,
@@ -97,10 +99,15 @@
     white-space: nowrap;
   }
 
-  .footer p {
+  .footer__socials {
     grid-row: 2;
-    grid-column: 1 / -1;
-    justify-self: start;
+    grid-column: 1;
+  }
+
+  .footer p {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
   }
 
   .product-page-hero {

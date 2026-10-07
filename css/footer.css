@@ -28,6 +28,14 @@
   font-size: 0.86rem;
 }
 
+.footer p a {
+  transition: color 0.2s;
+}
+
+.footer p a:hover {
+  color: var(--teal);
+}
+
 .footer__socials {
   display: flex;
   grid-row: 1;
