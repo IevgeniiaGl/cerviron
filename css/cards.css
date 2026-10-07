@@ -1,0 +1,116 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  min-height: 214px;
+  padding: 29px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+}
+
+.card__number {
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.card h3 {
+  margin: 33px 0 9px;
+  font-size: 1.15rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  align-items: center;
+  gap: 55px;
+}
+
+.product__image {
+  width: min(100%, 425px);
+  margin: auto;
+}
+
+.product__copy p {
+  color: var(--muted);
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 26px;
+}
+
+.fact,
+.prospect__fact {
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--teal-pale);
+}
+
+.fact strong,
+.prospect__fact strong {
+  display: block;
+  color: var(--teal-dark);
+  text-transform: uppercase;
+}
+
+.fact strong {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+.fact span {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.93rem;
+}
+
+.pharmacies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.pharmacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 190px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--white);
+}
+
+.pharmacy__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 68px;
+  color: var(--teal-dark);
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+}
+
+.pharmacy__logo img {
+  width: 100%;
+  max-width: 240px;
+  max-height: 76px;
+  object-fit: contain;
+  object-position: center;
+}

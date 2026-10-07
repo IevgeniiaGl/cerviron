@@ -1,0 +1,94 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 254, 253, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 76px;
+}
+
+.brand {
+  color: var(--teal);
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: -0.045em;
+}
+
+.brand::after {
+  position: relative;
+  top: -0.48em;
+  margin-left: 0.08em;
+  content: "®";
+  font-size: 0.42em;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  font-size: 0.92rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+.nav a {
+  color: var(--muted);
+}
+
+.nav a:hover,
+.nav a[aria-current="page"] {
+  color: var(--teal-dark);
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.language {
+  display: flex;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.language a {
+  padding: 6px 10px;
+  border-radius: 99px;
+  color: var(--muted);
+}
+
+.language a[aria-current="true"] {
+  color: white;
+  background: var(--teal-dark);
+}
+
+.menu-button {
+  display: none;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  color: var(--teal-dark);
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.menu-button[aria-expanded='true'] {
+  font-size: 1.8rem;
+}

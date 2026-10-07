@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --teal: #55b6ba;
+  --teal-dark: #238e96;
+  --teal-pale: #e4f6f5;
+  --coral: #ec967e;
+  --ink: #20454d;
+  --muted: #5f777d;
+  --line: #cce6e5;
+  --white: #fffefd;
+  --shadow: 0 24px 60px rgba(34, 111, 118, 0.15);
+}

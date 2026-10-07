@@ -1,0 +1,121 @@
+.accordion {
+  display: grid;
+  gap: 12px;
+}
+
+.accordion__item {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+}
+
+.accordion__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 82px;
+  padding: 25px 32px;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1.22rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+.accordion__trigger h2 {
+  margin: 0;
+  font: inherit;
+}
+
+.accordion__trigger::-webkit-details-marker {
+  display: none;
+}
+
+.accordion__trigger::after {
+  color: var(--coral);
+  content: "+";
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.accordion__item[open] {
+  border-color: var(--teal);
+  box-shadow: 0 12px 32px rgba(34, 111, 118, 0.1);
+}
+
+.accordion__item[open] .accordion__trigger {
+  color: var(--teal-dark);
+}
+
+.accordion__item[open] .accordion__trigger::after {
+  content: "−";
+}
+
+.accordion__content {
+  padding: 0 32px 34px;
+  color: var(--muted);
+}
+
+.accordion__content p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.accordion__content h3 {
+  margin: 34px 0 14px;
+  color: var(--teal-dark);
+  font-size: 1.16rem;
+}
+
+.accordion__content h3:first-child {
+  margin-top: 4px;
+}
+
+.accordion__content p + p,
+.accordion__content p + h3,
+.accordion__content ul + h3 {
+  margin-top: 22px;
+}
+
+.accordion__content ul {
+  margin: 20px 0 0;
+  padding-left: 23px;
+  line-height: 1.75;
+}
+
+.accordion__content li + li {
+  margin-top: 12px;
+}
+
+.accordion__lead {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.accordion__item .accordion__content .accordion__key-point {
+  margin-top: 28px;
+}
+
+@supports selector(details::details-content) {
+  .accordion__item {
+    interpolate-size: allow-keywords;
+  }
+
+  .accordion__item::details-content {
+    block-size: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition:
+      block-size 0.32s ease,
+      content-visibility 0.32s allow-discrete,
+      opacity 0.2s ease;
+  }
+
+  .accordion__item[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+  }
+}

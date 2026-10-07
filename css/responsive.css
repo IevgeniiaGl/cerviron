@@ -1,0 +1,140 @@
+@media (max-width: 820px) {
+  .menu-button {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 76px;
+    right: 0;
+    left: 0;
+    display: none;
+    padding: 22px 20px;
+    border-bottom: 1px solid var(--line);
+    background: var(--white);
+  }
+
+  .nav--open {
+    display: block;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero__grid,
+  .product,
+  .composition,
+  .benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__grid {
+    padding: 62px 0 36px;
+  }
+
+  .hero__visual {
+    grid-row: 1;
+    min-height: 320px;
+  }
+
+  .hero__circle {
+    width: 330px;
+  }
+
+  .hero__image {
+    width: min(100%, 430px);
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: min(100% - 30px, 1160px);
+  }
+
+  .header__inner {
+    min-height: 66px;
+    gap: 10px;
+  }
+
+  .brand {
+    font-size: 1.15rem;
+  }
+
+  .header__right {
+    gap: 4px;
+  }
+
+  .language a {
+    padding: 5px 8px;
+  }
+
+  .nav {
+    top: 66px;
+  }
+
+  .section {
+    padding: 65px 0;
+  }
+
+  .facts {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+  }
+
+  .footer .brand,
+  .footer p {
+    white-space: nowrap;
+  }
+
+  .footer p {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+
+  .product-page-hero {
+    padding: 76px 0 58px;
+  }
+
+  .composition__visual,
+  .benefits__product {
+    min-height: 290px;
+  }
+
+  .ingredient-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .usage {
+    padding: 23px;
+  }
+
+  .prospect__facts {
+    grid-template-columns: 1fr;
+  }
+
+  .pharmacies {
+    grid-template-columns: 1fr;
+  }
+
+  .accordion__trigger {
+    min-height: 70px;
+    padding: 20px;
+    font-size: 1.05rem;
+  }
+
+  .accordion__content {
+    padding: 0 20px 24px;
+  }
+}
